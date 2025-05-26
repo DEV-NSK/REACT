@@ -1,7 +1,7 @@
-import prtf from "/src/Portfolio.png";
-import ar from "/src/ar.png";
-import resturant from "/src/restuarant.png";
-import parallax from "/src/project.png";
+import prtf from "./Portfolio.png";
+import ar from "./ar.png";
+import resturant from "./restuarant.png";
+import parallax from "./project.png";
 
 import "./Projects.css";
 
