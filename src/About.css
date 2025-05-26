@@ -1,0 +1,80 @@
+#about {
+  width: 100%;
+  padding: 0px 2rem;
+}
+#about > #heads {
+  width: 100%;
+  display: grid;
+  row-gap: 1.5rem;
+}
+#heads > span {
+  font-size: 2rem;
+}
+#heads > p {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+#about-images {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+#about-images > .about-img {
+  width: 100%;
+  background-color: rgb(245, 242, 240);
+}
+.about-img > img {
+  width: 100%;
+}
+#content {
+  display: grid;
+  row-gap: 1rem;
+  padding: 10px 0px 0px 0px;
+}
+#content > h2 {
+  font-weight: normal;
+}
+#content > span {
+  color: grey;
+}
+#content > p {
+  letter-spacing: 0.4px;
+}
+#content > a {
+  text-decoration: none;
+  color: black;
+  background-color: rgba(160, 143, 143, 0.279);
+  text-align: center;
+  padding: 10px;
+}
+#content > a:hover {
+  background-color: grey;
+}
+
+@media (max-width: 900px) {
+    #about-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    #about {
+        padding: 0 1rem;
+    }
+    #about-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #about > #heads {
+        row-gap: 0.5rem;
+    }
+    #heads > span {
+        font-size: 1.5rem;
+    }
+    #heads > p {
+        font-size: 0.8rem;
+    }
+    #content > p {
+        font-size: 0.8rem;
+    }
+}
