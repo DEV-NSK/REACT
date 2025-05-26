@@ -1,4 +1,8 @@
 import "./About.css"
+import about1 from "./assets/about-img1.jpg";
+import about2 from "./assets/about-img2.jpg";
+import about3 from "./assets/about-img3.jpg";
+import about4 from "./assets/about-img4.jpg";
 
 export const About = () => {
     return (
@@ -17,7 +21,7 @@ export const About = () => {
             </div>
             <div id="about-images">
                 <div className="about-img">
-                    <img src="./src/assets/about-img1.jpg" alt/>
+                    <img src={about1} alt/>
                     <div id="content">
                         <h2>John Doe</h2>
                         <span>CEO & Founder</span>
@@ -27,7 +31,7 @@ export const About = () => {
                     </div>
                 </div>
                 <div className="about-img">
-                    <img src="./src/assets/about-img2.jpg" alt/>
+                    <img src={about2} alt/>
                     <div id="content">
                         <h2>Jane Doe</h2>
                         <span>Architect</span>
@@ -37,7 +41,7 @@ export const About = () => {
                     </div>
                 </div>
                 <div className="about-img">
-                    <img src="./src/assets/about-img3.jpg" alt/>
+                    <img src={about3} alt/>
                     <div id="content">
                         <h2>Mike Ross</h2>
                         <span>Architect</span>
@@ -47,7 +51,7 @@ export const About = () => {
                     </div>
                 </div>
                 <div className="about-img">
-                    <img src="./src/assets/about-img4.jpg" alt/>
+                    <img src={about4} alt/>
                     <div id="content">
                         <h2>Dan Star</h2>
                         <span>Architect</span>

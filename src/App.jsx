@@ -1,8 +1,9 @@
 import "./App.css";
 import { Projects } from "./Projects.jsx";
-import { About} from "./About.jsx";
+import { About } from "./About.jsx";
 import { Contact } from "./Contact.jsx";
 import { Footer } from "./Footer.jsx";
+import homeimg from "./assets/home-img.jpg";
 
 export const App = () => {
   return (
@@ -19,7 +20,7 @@ export const App = () => {
       </div>
       {/* HOME-PAGE */}
       <div id="home">
-        <img src="./src/assets/home-img.jpg" alt />
+        <img src={homeimg} alt />
         <p>
           <span>BR</span> Architects
         </p>

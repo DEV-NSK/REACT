@@ -1,10 +1,11 @@
 import "./Footer.css";
+import map1 from "./assets/footer-img.jpg";
 
 export const Footer = () => {
   return (
     <div id="footer">
       <div id="end">
-        <img src="./src/assets/footer-img.jpg" alt="" />
+        <img src={map1} />
       </div>
       <div id="foot">
         <p>Powered by </p>
