@@ -1,0 +1,33 @@
+#home {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home > p {
+    font-size: 1.3rem;
+}
+
+#home > img {
+    width: 20%;
+}
+
+@media (max-width: 600px) {
+    #home > img {
+        width: 50% !important;
+    }
+    #home > p {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 900px) {
+    #home > img {
+        width: 40%;
+    }
+    #home > p {
+        font-size: 1.3rem;
+    }
+}
