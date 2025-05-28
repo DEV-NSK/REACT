@@ -8,8 +8,9 @@
     justify-content: space-around;
     align-items: center;
     color: rgb(255, 132, 0);
-    padding: 0.5rem;
+    padding: 1rem;
     box-shadow: 0 0 10px black;
+    font-size: 1.2rem;
 }
 
 #nav-links {
@@ -20,7 +21,7 @@
 #nav-links > a {
     text-decoration: none;
     color: rgb(255, 132, 0);
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 5px;
 }
 
