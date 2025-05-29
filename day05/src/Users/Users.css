@@ -1,0 +1,56 @@
+#users {
+    width: 100%;
+    padding: 1rem;
+}
+#users > h1 {
+    text-align: center;
+    margin: 1.5rem;
+}
+#user-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+.user-card {
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(174, 169, 169);
+    display: grid;
+    place-items: center;
+    gap: 0.5rem;
+    border-radius: 5px;
+}
+.user-card:hover {
+    box-shadow: 0 0 15px rgb(109, 107, 107);
+    transform: scale(1.02);
+    transition: all 0.5s ease-in-out;
+}
+.user-card > img {
+    width: 50%;
+    border-radius: 50%;
+    border: 1px solid orangered;
+}
+.user-card > span {
+    background-color: orangered;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+@media (max-width: 600px) {
+    #user-list {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    .user-card > img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    #user-list {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    .user-card > img {
+        width: 60%;
+    }
+}
