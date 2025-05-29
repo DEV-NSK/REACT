@@ -39,7 +39,7 @@
 
 @media (max-width: 600px) {
     #user-list {
-        grid-template-columns: repeat(2,1fr) !important;
+        grid-template-columns: 1fr;
     }
     .user-card > img {
         width: 70%;
